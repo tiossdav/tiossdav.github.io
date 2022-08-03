@@ -1,0 +1,100 @@
+body{
+    font-family: cursive;
+    background-color: hsl(30, 38%, 92%);
+}
+
+h4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 550;
+    color: rgb(153, 151, 151);
+    line-height: 10px;
+    margin: 20px;
+    letter-spacing: 3px;
+}
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    margin: 20px;
+
+}
+
+p{
+    margin: 20px;
+    font-size: 10px;
+    font-family: poppins;
+    font-weight: 800;
+    color: rgb(153, 151, 151);
+
+    
+}
+
+.main-container{
+    display: flex;
+    height: 400px;
+    width: 430px;
+    margin: 150px auto;
+}
+
+img{
+    width: 200px;
+    height: 345px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+
+.image-container{
+    width: 200px;
+    height: 300px;
+}
+
+.text-container{
+    margin-left: px;
+    height: 345px;
+    width: 250px;
+    background-color: hsl(0, 0%, 100%);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.price-tag{
+    display: flex;
+}
+
+.tag-price{
+    color: hsl(158, 36%, 37%);
+    font-family: 'fraunces', sans-serif;
+}
+
+.price{
+    margin-top: 3px;
+    width:90px;
+    line-height: 20px;
+}
+
+.stroke{
+   margin-top: 7px;
+   margin-left: 0;
+   text-decoration: line-through;
+   color: rgb(153, 151, 151);
+
+}
+
+button{
+    height: 40px;
+    width: 150px;
+    border-radius: 10px;
+    border: 1px transparent;
+    background-color: hsl(158, 36%, 37%);
+    margin-left: 40px;
+    margin-top: 0;
+    color: white;
+    font-family: montserrat;
+}
+
+svg{
+    margin-right: 5px;
+}
